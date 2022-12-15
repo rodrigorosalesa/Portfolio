@@ -2,7 +2,7 @@
 
 Final project for the courses **601: Working with Data and Visualization** and **602: Statistical Data Analysis**, for the **Master´s in Data Science and Analytics** imparted by the **University of Calgary**, in which we showcased all the knowledge acquired in both courses. 
 
-More important, we decided to focus on Housing Prices as is a topic that is positively related to one´s satisfaction and the importance in the economical sector. 
+We decided to focus on Housing Prices as is a topic that is positively related to one´s satisfaction and the importance in the economical sector. 
 
 <br>
 
@@ -26,7 +26,7 @@ For *601* we used **Python** and the plan we elaborated was:
 
 <img src="Python\price_vs_building_area.PNG" alt="Regression Plot Price vs Building Area" width="500"/>
 
-To check our code, please refer to the file [housing_market_melbourne.ipynb](Python\housing_market_melbourne.ipynb)
+To check the code, please refer to the file [housing_market_melbourne.ipynb](Python\housing_market_melbourne.ipynb)
 
 <br> <br>
 
@@ -39,9 +39,9 @@ For the *602* we used **R** and the plan we elaborated was:
 2. Statistical Analysis
 3. Conclusion
 
-<img src="RStudio\victorian_vs_metropolitan_bootstrap.PNG" alt="Bootstrap Victorian and Metropolitan Average Prices" width="500"/>
+<img src="R\victorian_vs_metropolitan_bootstrap.PNG" alt="Bootstrap Victorian and Metropolitan Average Prices" width="500"/>
 
-To check our code, please refer to the file [housing_prices_melbourne.Rmd](RStudio\housing_prices_melbourne.Rmd)
+To check the code, please refer to the file [housing_prices_melbourne.Rmd](R\housing_prices_melbourne.Rmd)
 
 <br> <br>
 
