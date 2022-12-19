@@ -1,1 +1,3 @@
 Covid_19_Analysis/Datasets/covid/data.csv filter=lfs diff=lfs merge=lfs -text
+Covid_19_Analysis/R/modelling_the_impact_of_covid_19_preparing_for_future_pandemics.pdf filter=lfs diff=lfs merge=lfs -text
+Covid_19_Analysis/R/modelling_the_impact_of_covid_19_preparing_for_future_pandemics.Rmd filter=lfs diff=lfs merge=lfs -text
