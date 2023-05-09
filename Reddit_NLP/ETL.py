@@ -141,12 +141,12 @@ city_df[['neg', 'neu', 'pos', 'compound']] = city_df['cleaned_text'].apply(senti
 comment_df[['neg', 'neu', 'pos', 'compound']] = comment_df['cleaned_text'].apply(sentiment_analysis).apply(pd.Series)
 
 # Append historic data with weekly data
-city_df = union_dataframes(city_df, 'CSV/posts.csv', "id")
-comment_df = union_dataframes(comment_df, 'CSV/comments.csv', "comment_id")
+city_df = union_dataframes(city_df, 'Data/posts.csv', "id")
+comment_df = union_dataframes(comment_df, 'Data/comments.csv', "comment_id")
 
 # Write data into a csv file
-comment_df.to_csv('CSV/comments.csv', index=False)
-city_df.to_csv('CSV/posts.csv', index=False)
+comment_df.to_csv('Data/comments.csv', index=False)
+city_df.to_csv('Data/posts.csv', index=False)
 print('*****************')
 print('Sentiment Analysis Done')
 print('*****************', end="\n\n")
@@ -164,7 +164,7 @@ print('*****************', end="\n\n")
 ########################
 
 # Load the data
-post_df = pd.read_csv('./CSV/posts.csv', encoding='ISO-8859-1')
+post_df = pd.read_csv('./Data/posts.csv', encoding='ISO-8859-1')
 
 # Create a list of stop words from the NLTK library
 stop_words = stopwords.words('english')
@@ -237,7 +237,7 @@ topic_info = topic_model.get_topic_info()
 topic_info.to_csv(f"{output_directory}/topic_info.csv", index=False)
 
 # Save the new posts.csv
-post_df.to_csv('./CSV/posts.csv')
+post_df.to_csv('./Data/posts.csv')
 
 # Create a pivot table with the city as index, topic as columns, and count as values
 pivot_table = top_topics_per_subreddit.pivot_table(index='city', columns='topic', values='count', fill_value=0)
@@ -334,8 +334,8 @@ plt.savefig(f"{output_directory}/topic_word_clouds.png", dpi=300)
 ########################
 
 # Load DF's
-post_df = pd.read_csv('./CSV/posts.csv')
-comment_df = pd.read_csv('./CSV/comments.csv')
+post_df = pd.read_csv('./Data/posts.csv')
+comment_df = pd.read_csv('./Data/comments.csv')
 
 # Clean comment DF
 comment_df = comment_df[~comment_df['post_id'].str.contains('Ã')]
