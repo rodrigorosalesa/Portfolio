@@ -5,3 +5,4 @@ Covid_19_Analysis/Python/covid_19_stock_market.html filter=lfs diff=lfs merge=lf
 Covid_19_Analysis/Python/covid_19_stock_market.ipynb filter=lfs diff=lfs merge=lfs -text
 Reddit_NLP/Data/comments.csv filter=lfs diff=lfs merge=lfs -text
 Reddit_NLP/Data/posts.csv filter=lfs diff=lfs merge=lfs -text
+Time_Series_Wine_Production\faostat_wine.csv filter=lfs diff=lfs merge=lfs -text
