@@ -17,7 +17,7 @@ The internet has revolutionized communication, learning, socializing, and busine
 
 This project aims to explore natural language processing (NLP) algorithms, interact with and extract data from Reddit's API, and analyze the data for meaningful insights. NLP is a computer technology that enables computers to understand, interpret, and generate human language, making it easier for people to interact with technology. Reddit provides a robust source of data and has a Python package, PRAW, for easier extraction of data from its API. The focus of this project is on the subreddits of major Canadian cities to understand the distribution of topics and the sentiment behind them.   
 
-<img src="Reddit_NLP\sentiment_by_season.PNG" alt="Sentiment Analysis by Season" width="800"/>
+<img src="Reddit_NLP\sentiment_analysis_season.png" alt="Sentiment Analysis by Season" width="800"/>
 
 <br> 
 <br>
