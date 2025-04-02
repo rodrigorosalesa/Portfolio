@@ -4,9 +4,9 @@
 
 <br>
 
-I have a strong background as a Data Analyst and some experience as a Data Engineer. Currently I am doing my Master´s in Data Science at the University of Calgary. I am very hard working, and I am always eager to learn new things. 
+I’m a Data Analyst and Data Engineer with a Master’s Degree in Data Science from the University of Calgary. I bring a solid mix of analytical thinking, technical skills, and a deep curiosity for uncovering insights through data.
 
-This is my Data Science Portfolio where I showcase my work as a Data Scientist/Data Analyst/Data Engineer. 
+This is my Portfolio where I showcase some of my work as a Data Scientist/Data Analyst/Data Engineer. 
 
 <br>
 
